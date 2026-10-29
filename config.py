@@ -1,5 +1,5 @@
 class Config:
-    # Базовые URL для тестов
-    UI_URL: str = "https://automationexercise.com"
-    API_URL: str = "https://typicode.com"
-    TIMEOUT: int = 5000  # Таймаут для Playwright в миллисекундах
+    # Базовые URL для реального тестирования интернет-магазина "Читай-город"
+    UI_URL: str = "https://chitai-gorod.ru"
+    API_URL: str = "https://webapi.chitai-gorod.ru/api/v1"
+    TIMEOUT: int = 15000  # Увеличим таймаут до 15 секунд для стабильности на реальной сети
